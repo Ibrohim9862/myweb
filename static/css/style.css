@@ -1,0 +1,565 @@
+@font-face {
+  font-family: Optima;
+  src: url("../Optima-Font/OPTIMA.TTF");
+}
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: Optima;
+}
+body {
+  background-color: black;
+}
+.navbar_header a {
+  color: yellow;
+}
+.nav_header ul li {
+  padding: 0;
+  list-style: none;
+}
+
+.nav_header ul li a {
+  text-decoration: none;
+  color: white;
+}
+
+.nav_header ul li a:hover {
+  transition: 1s;
+  color: yellow;
+  border-bottom: 1px solid yellow;
+}
+
+/* carusel */
+.carusel_h1 {
+  font-weight: 900;
+  font-size: 1.8em;
+  color: yellow;
+}
+.slick-slide {
+  outline: none !important;
+}
+.header_number {
+  line-height: 16px;
+  font-size: 13px;
+}
+.header_number a:hover {
+  color: #e9482c;
+}
+.wrapper1 {
+  width: 100%;
+}
+.carousel1 {
+  color: #fefefe !important;
+}
+.carousel1 .slick-track {
+  display: flex !important;
+}
+.carousel1 .slick-slide img {
+  width: 100vw;
+  height: 300px;
+  object-fit: cover;
+}
+.slick-slide {
+  height: inherit !important;
+}
+.wrapper1 .carousel1 .slick-dots li button:before {
+  font-size: 0px;
+  color: #fefefe;
+  width: 2px;
+  height: 2px;
+}
+.wrapper1 .carousel1 .slick-dots {
+  width: auto;
+  bottom: auto;
+  position: absolute !important;
+  left: -20px;
+  top: 30px;
+  z-index: 1000;
+  transform: rotate(90deg);
+  text-align: start;
+}
+.carousel1 .slick-dots li button {
+  font-size: 0px;
+  width: 1px;
+  height: 1px;
+  border: 1px solid #fff;
+  background: transparent;
+  border-radius: 50%;
+  /* margin: 0 5px; */
+}
+
+.carousel1 .slick-dots li.slick-active button {
+  width: 2px;
+  height: 2px;
+  background: #fefefe;
+  border-color: #fefefe;
+}
+/* carusel end  */
+.card_uslugy i {
+  /* font-size: 120px; */
+  font-size: 70px;
+}
+.card_uslugy ul {
+  padding: 0;
+  text-align: start;
+}
+
+.card_uslugy ul li {
+  line-height: 20px;
+  /* line-height: 30px; */
+}
+.card_uslugy {
+  transition: 0.3s;
+  background-color: black;
+  padding: 10px 10px;
+}
+.card_hover {
+  transition: 0.3s;
+  padding: 20px 0 5px;
+  border: 1px solid transparent;
+  border-radius: 5px;
+}
+/* .card_uslugy {
+  transition: 0.3s;
+  background-color: black;
+  
+  padding: 20px 20px;
+}
+.card_hover {
+  transition: 0.3s;
+  padding: 20px 0 5px;
+  border: 1px solid transparent;
+  border-radius: 5px;
+} */
+
+.card_uslugy:hover {
+  background-color: #343a40;
+}
+.card_uslugy:hover .card_hover {
+  border: 1px solid yellow;
+}
+.card_uslugy:hover .card_hover i {
+  color: yellow;
+}
+.row_portfolio {
+  display: grid;
+  gap: 25px;
+  grid-template-columns: repeat(1, 1fr);
+}
+
+/* carusel 2 */
+
+.carusel_2 {
+  padding: 0 50px;
+}
+.carusel_text {
+  margin: 0 2px;
+  padding: 0 0px;
+}
+
+.carusel_2 .right-button,
+.carusel_2 .left-button {
+  font-size: 20px;
+  color: #fefefe;
+  text-align: center;
+  z-index: 1;
+  position: absolute;
+  top: 40%;
+}
+.carusel_2 .left-button {
+  left: -40px;
+}
+.carusel_2 .right-button {
+  right: -40px;
+}
+
+/* carusel_2 end */
+.form_massege {
+  padding: 20px 25px;
+  outline: 8px solid #595b5f;
+  border-radius: 0;
+  border: 15px solid black;
+}
+.form_input {
+  color: yellow;
+  background: #343a40;
+  border: 0;
+  border-radius: 0;
+  border-bottom: 1px solid black;
+}
+.form_input:focus {
+  color: #fefefe;
+  background-color: #343a40;
+  border: 0;
+  outline: 0;
+  box-shadow: none;
+  border-bottom: 1px solid yellow;
+}
+.form_massege {
+  color: gray;
+  background-color: #343a40;
+}
+.portfolio_context ul {
+  padding: 0;
+}
+.portfolio_context ul li {
+  list-style: none;
+}
+.portfolio_context ul li a {
+  text-decoration: none;
+  color: yellow;
+  line-height: 35px;
+}
+.contact_header {
+  font-size: 18px;
+  letter-spacing: 6px;
+  transform: rotate(-90deg);
+  color: white;
+  text-decoration: none;
+  top: 155px;
+  right: -90px;
+  z-index: 1;
+}
+.contact_header:hover {
+  color: yellow;
+}
+.h1_text_portfoilo {
+  font-size: 60px;
+}
+.header_menu li a {
+  padding: 8px 16px;
+}
+/* .header_menu_1 {
+  transition-delay: 5s;
+  transition: 1s;
+  z-index: 1111;
+}
+
+.header_menu {
+  padding: 0;
+  top: 0;
+  transform: translateX(0%);
+  left: 50%;
+  transition: 0.2s;
+  position: absolute;
+  transition: 1s;
+  display: block;
+  z-index: 1111;
+  visibility: hidden;
+} */
+.header_menu_1 {
+  top: 0;
+  left: 0;
+  position: absolute;
+  width: 100%;
+  height: 100vh;
+  z-index: 1111;
+  /* display: none; */
+  visibility: hidden;
+  transition: 0.5s;
+  justify-content: center;
+  /* padding-top: 130px; */
+}
+
+.header_menu {
+  position: absolute;
+  z-index: 1;
+  padding: 0;
+  transition: 0.5s;
+  left: 40%;
+  top: 10%;
+  /* transform: translate(-50%, -50%); */
+  /* transition-delay: 10s; */
+  /* visibility: hidden; */
+  /* transition: 1s; */
+  /* transform: translateY(-30px); */
+  visibility: hidden;
+  line-height: 35px;
+  opacity: 0;
+}
+.animation .header_menu {
+  top: 30%;
+  transition-delay: 0.3s;
+  /* transition: 2s; */
+  opacity: 1;
+  visibility: visible;
+  /* transform: translateY(30px); */
+}
+.button_response {
+  position: sticky;
+  z-index: 1112;
+}
+.menu_bar {
+  width: 100%;
+  height: 100%;
+  position: fixed;
+  z-index: 1;
+  visibility: hidden;
+}
+.menu_bar .r1 {
+  position: absolute;
+  width: 100%;
+  height: 100vh;
+  transform: translateX(-100%);
+  background-color: rgba(0, 0, 0, 0.9);
+  transition: 0.5s;
+}
+.menu_bar .r2 {
+  position: absolute;
+  width: 100%;
+  height: 100vh;
+  transform: translateX(100%);
+  background-color: rgba(0, 0, 0, 0.9);
+  transition: 0.5s;
+}
+.toggle-menu .fa-close {
+  transform: rotate(-180deg);
+  transition: 0.5s;
+}
+.toggle-menu .fa-bars {
+  transform: rotate(180deg);
+  transition: 0.5s;
+}
+
+.animation .r1 {
+  transition: 0.5s;
+  transform: translateX(-50%);
+}
+.animation .r2 {
+  transition: 0.5s;
+  transform: translateX(49%);
+}
+@media (min-width: 576px) {
+  .carousel1 .slick-slide img {
+    height: 350px;
+  }
+  .h1_text_portfoilo {
+    font-size: 40px;
+  }
+  .carusel_h1 {
+    font-size: 2.4em;
+  }
+  .wrapper1 .carousel1 .slick-dots {
+    /* height: 35px; */
+    /* left: -230px; */
+    /* top: 55px; */
+  }
+  .row_portfolio {
+    grid-template-columns: 50% repeat(1, 1fr);
+  }
+
+  .row_portfolio .row_item:first-child {
+    grid-row-start: 1;
+    grid-row-end: 1;
+  }
+  .row_portfolio .row_item:nth-child(3) {
+    grid-column-start: 1;
+    grid-column-end: 3;
+  }
+  .carusel_2 .right-button,
+  .carusel_2 .left-button {
+    font-size: 20px;
+  }
+  .carusel_2 .left-button {
+    left: -40px;
+  }
+  .carusel_2 .right-button {
+    right: -40px;
+  }
+  .card_uslugy {
+    padding: 20px 20px;
+  }
+}
+
+/* // Medium devices (tablets, 768px and up) */
+@media (min-width: 768px) {
+  .header_menu_1 {
+    position: static;
+    transition: 0s;
+    width: auto;
+    height: auto;
+    padding: 0px;
+  }
+  .button_response {
+  }
+  /* menu  */
+
+  .header_menu {
+    transform: translateY(0px);
+    visibility: visible;
+    transition: 0s;
+    opacity: 1;
+    transition-delay: 0;
+    position: static;
+    background-color: transparent;
+  }
+  .menu_bar {
+    display: none;
+    /* visibility: visible; */
+  }
+  /* menu animation  */
+  .card_uslugy i {
+    font-size: 100px;
+  }
+  .contact_header {
+    top: 255px;
+    right: -75px;
+  }
+  .h1_text_portfoilo {
+    font-size: 50px;
+  }
+  .carusel_h1 {
+    font-size: 2.5em;
+  }
+  .carousel1 .slick-slide img {
+    height: 450px;
+  }
+  .wrapper1 .carousel1 .slick-dots {
+    /* height: 35px; */
+    /* left: -330px; */
+    top: 80px;
+  }
+  .row_portfolio {
+    gap: 25px;
+    grid-template-columns: 50% repeat(1, 1fr);
+  }
+  .row_portfolio .row_item:first-child {
+    grid-row-start: 1;
+    grid-row-end: 3;
+  }
+
+  .row_portfolio .row_item:nth-child(3) {
+    grid-column-start: auto;
+    grid-column-end: auto;
+  }
+  .carusel_2 .right-button,
+  .carusel_2 .left-button {
+    font-size: 25px;
+  }
+  .carusel_2 .left-button {
+    left: -40px;
+  }
+  .carusel_2 .right-button {
+    right: -40px;
+  }
+  .card_uslugy {
+    padding: 20px 20px;
+  }
+}
+
+/* // Large devices (desktops, 992px and up) */
+@media (min-width: 992px) {
+  .card_uslugy ul li {
+    line-height: 25px;
+  }
+  .contact_header {
+    top: 265px;
+    right: -100px;
+  }
+  .carusel_h1 {
+    font-size: 4em;
+  }
+  .carousel1 .slick-slide img {
+    height: 450px;
+  }
+  .wrapper1 .carousel1 .slick-dots {
+    /* height: 35px; */
+    /* left: -430px; */
+    top: 88px;
+  }
+  .row_portfolio {
+    gap: 0px;
+    grid-template-columns: 30% repeat(1, 1fr);
+  }
+  .row_portfolio .row_item:first-child {
+    grid-row-start: 1;
+    grid-row-end: 3;
+  }
+  .row_portfolio .row_item:nth-child(2) {
+    grid-row-start: 1;
+    grid-row-end: 2;
+  }
+  .card_uslugy {
+    padding: 20px 20px;
+  }
+  .carusel_2 .right-button,
+  .carusel_2 .left-button {
+    font-size: 30px;
+  }
+}
+
+/* // X-Large devices (large desktops, 1200px and up) */
+@media (min-width: 1200px) {
+  .card_uslugy i {
+    font-size: 110px;
+  }
+  .contact_header {
+    line-height: 10px;
+    letter-spacing: 2px;
+    top: 280px;
+    right: -60px;
+  }
+  .h1_text_portfoilo {
+    font-size: 60px;
+  }
+  .carousel1 .slick-slide img {
+    height: 450px;
+  }
+  .carusel_h1 {
+    font-size: 4.5em;
+  }
+  .wrapper1 .carousel1 .slick-dots {
+    /* height: 35px; */
+    /* left: -515px; */
+    top: 92px;
+  }
+  .row_portfolio {
+    gap: 25px;
+    grid-template-columns: 30% repeat(1, 1fr);
+  }
+  .row_portfolio .row_item:first-child {
+    grid-row-start: 1;
+    grid-row-end: 3;
+  }
+  .row_portfolio .row_item:nth-child(2) {
+    grid-row-start: auto;
+    grid-row-end: auto;
+  }
+  .carusel_2 .right-button,
+  .carusel_2 .left-button {
+    font-size: 35px;
+  }
+  .carusel_2 .left-button {
+    left: -40px;
+  }
+  .carusel_2 .right-button {
+    right: -40px;
+  }
+}
+
+/* // XX-Large devices (larger desktops, 1400px and up) */
+@media (min-width: 1400px) {
+  .card_uslugy i {
+    font-size: 120px;
+  }
+  .carousel1 .slick-slide img {
+    height: 450px;
+  }
+  .carusel_h1 {
+    font-size: 5em;
+  }
+  .wrapper1 .carousel1 .slick-dots {
+    /* height: 50px; */
+    /* left: -600px; */
+    /* top: 60px; */
+  }
+  .row_portfolio {
+    gap: 25px;
+    grid-template-columns: 30% repeat(1, 1fr);
+  }
+  .row_portfolio .row_item:first-child {
+    grid-row-start: 1;
+    grid-row-end: 3;
+  }
+}
